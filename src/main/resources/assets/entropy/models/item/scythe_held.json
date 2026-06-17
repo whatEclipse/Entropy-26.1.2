@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "entropy:item/scythe"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 31],
+			"translation": [0, 6, 2.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -31],
+			"translation": [0, 6, 2.75],
+			"scale": [1.5, 1.5, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, -90, 1],
+			"translation": [1.5, 4, 0.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 90, 0],
+			"translation": [1.5, 4, 0.25]
+		},
+		"head": {
+			"rotation": [0, -90, 101],
+			"translation": [0, 9, -8.75]
+		}
+	}
+}

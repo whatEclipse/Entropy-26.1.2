@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "entropy:item/scythe_inv",
+    "particle": "entropy:/scythe_inv"
+  }
+}

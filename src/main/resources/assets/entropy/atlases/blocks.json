@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "entropy:item/scythe"
+    },
+    {
+      "type": "single",
+      "resource": "entropy:item/scythe_inv"
+    },
+    {
+      "type": "single",
+      "resource": "entropy:/scythe_inv"
+    }
+  ]
+}
