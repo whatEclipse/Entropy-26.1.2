@@ -19,7 +19,7 @@
 			"net.entropy.Entropy"
 		],
 		"client": [
-			"net.entropy.client.EntropyClient"
+			"net.entropy.EntropyClient"
 		],
 		"fabric-datagen": [
 			"net.entropy.client.EntropyDataGenerator"
@@ -37,5 +37,8 @@
 		"minecraft": "~26.1.2",
 		"java": ">=25",
 		"fabric-api": "*"
+	},
+	"recommends": {
+		"combatamenities": "*"
 	}
 }

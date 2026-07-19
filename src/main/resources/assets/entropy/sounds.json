@@ -1,0 +1,14 @@
+{
+  "item.scythe.hit": {
+    "sounds": ["entropy:item/scythe_hit"],
+    "subtitle": "entropy.subtitles.item.scythe.hit"
+  },
+  "item.scythe.spewing": {
+    "sounds": ["entropy:item/scythe_spewing_1", "entropy:item/scythe_spewing_2"],
+    "subtitle": "entropy.subtitles.item.scythe.spewing"
+  },
+  "entity.blood_scythe.hit": {
+    "sounds": ["entropy:entity/blood_scythe_hit"],
+    "subtitle": "entropy.subtitles.entity.blood_scythe.hit"
+  }
+}

@@ -1,3 +1,12 @@
 {
-  "item.entropy.scythe": "Scythe"
+  "item.entropy.scythe": "Scythe",
+
+  "entity.entropy.blood_scythe": "Blood Scythe",
+
+  "enchantment.entropy.spewing": "Spewing",
+  "enchantment.entropy.reeling": "Reeling",
+
+  "entropy.subtitles.item.scythe.hit": "Scythe hits",
+  "entropy.subtitles.item.scythe.spewing": "Scythe spews blood",
+  "entropy.subtitles.entity.blood_scythe.hit": "Blood scythe splatters"
 }

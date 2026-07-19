@@ -1,6 +1,9 @@
 package net.entropy;
 
+import net.entropy.entity.EntropyEntities;
 import net.entropy.items.EntropyItems;
+import net.entropy.particles.EntropyParticles;
+import net.entropy.sounds.EntropySounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,6 +20,9 @@ public class Entropy implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		EntropyItems.initialize();
+		EntropyEntities.initialize();
+		EntropyParticles.initialize();
+		EntropySounds.initialize();
 
 		LOGGER.info("\n\nFucking hell who caused all this *CHAOS*?! Haha, get the joke? No?... :( \n");
 	}
