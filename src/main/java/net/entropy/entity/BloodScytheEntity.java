@@ -9,7 +9,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.projectile.arrow.AbstractArrow; // relocated into this subpackage in 26.1
+import net.minecraft.world.entity.projectile.arrow.AbstractArrow;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
@@ -24,11 +24,6 @@ public class BloodScytheEntity extends AbstractArrow {
     public int ticksUntilRemove = 5;
     public final List<LivingEntity> hitEntities = new ArrayList<>();
 
-    // Picked once at spawn and never touched again - getYRot() drifts every tick because
-    // AbstractArrow automatically re-aims itself to face the current velocity direction as
-    // it flies, which is what was causing the trail to "randomly rotate while moving".
-    // Using a fixed value here instead keeps the trail's angle locked for the entity's
-    // whole lifetime.
     private final float particleAngle = 35.0F + this.random.nextFloat() * 20.0F;
 
     public BloodScytheEntity(EntityType<? extends AbstractArrow> entityType, Level level) {
@@ -36,11 +31,6 @@ public class BloodScytheEntity extends AbstractArrow {
     }
 
     public BloodScytheEntity(Level level, LivingEntity owner) {
-        // Source calls super(ArsenalEntities.BLOOD_SCYTHE, owner, world) - a 3-arg
-        // constructor. That 3-arg constructor doesn't exist on AbstractArrow in 26.1.2
-        // (compiler error confirmed this) - it's 5-arg now, with two extra ItemStack
-        // params (pickup stack, fired-from-weapon stack). EMPTY/null are the closest
-        // equivalent to "no real stack involved", matching asItemStack() returning EMPTY.
         super(EntropyEntities.BLOOD_SCYTHE, owner, level, ItemStack.EMPTY, null);
     }
 
@@ -48,15 +38,11 @@ public class BloodScytheEntity extends AbstractArrow {
         this.effectInstance.add(effect);
     }
 
-    // Source: protected ItemStack asItemStack() - renamed in Mojmap.
     @Override
     protected ItemStack getPickupItem() {
         return ItemStack.EMPTY;
     }
 
-    // Not present in the source at all - this is a second abstract method that only
-    // exists on 26.1.2's AbstractArrow (didn't exist in 1.20.1), so it has to be
-    // implemented for this to compile. No equivalent to port from the source.
     @Override
     protected ItemStack getDefaultPickupItem() {
         return ItemStack.EMPTY;
@@ -74,7 +60,6 @@ public class BloodScytheEntity extends AbstractArrow {
                     velocity.x, velocity.y, velocity.z);
         }
 
-        // Source: this.inGround (a field). 26.1.2 exposes it as isInGround() instead.
         if (this.isInGround() || this.tickCount > 20) {
             for (int i = 0; i < 50; i++) {
                 this.level().addParticle(EntropyParticles.BLOOD_BUBBLE_SPLATTER,
@@ -89,10 +74,6 @@ public class BloodScytheEntity extends AbstractArrow {
             this.discard();
         }
 
-        // Source: !this.getWorld().isClient. Same check, renamed.
-        // Source: livingEntity.damage(this.getWorld().getDamageSources().create(...), 12.0f).
-        // Mojmap's equivalent, hurtServer(), needs a ServerLevel reference (not just any
-        // Level) as of this version, hence the instanceof check.
         if (!this.level().isClientSide() && this.level() instanceof ServerLevel serverLevel) {
             for (LivingEntity livingEntity : this.level().getEntitiesOfClass(LivingEntity.class, this.getBoundingBox(),
                     candidate -> this.getOwner() != candidate)) {
@@ -108,21 +89,16 @@ public class BloodScytheEntity extends AbstractArrow {
         }
     }
 
-    // Source: getHitSound() returning ArsenalSounds.ENTITY_BLOOD_SCYTHE_HIT. Mojmap's
-    // AbstractArrow hook for this is getDefaultHitGroundSoundEvent().
     @Override
     protected SoundEvent getDefaultHitGroundSoundEvent() {
         return EntropySounds.ENTITY_BLOOD_SCYTHE_HIT;
     }
 
-    // Source: hasNoGravity() - renamed.
     @Override
     public boolean isNoGravity() {
         return true;
     }
 
-    // Source: onEntityHit() - renamed, still intentionally empty (damage handled
-    // manually above instead).
     @Override
     protected void onHitEntity(EntityHitResult result) {
     }

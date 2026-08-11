@@ -1,7 +1,20 @@
 {
   "item.entropy.scythe": "Scythe",
+  "item.entropy.shark_tooth_cleaver": "Shark Tooth Cleaver",
+  "item.entropy.open_contract": "Open Contract",
+  "item.entropy.closed_contract": "Closed Contract",
+  "item.entropy.butter": "Butter",
+
+  "item.entropy.amethyst_bricks": "Amethyst Bricks",
+  "item.entropy.amethyst_brick_stairs": "Amethyst Brick Stairs",
+  "item.entropy.amethyst_brick_slab": "Amethyst Brick Slab",
+  "item.entropy.amethyst_brick_wall": "Amethyst Brick Wall",
+  "item.entropy.amethyst_pillar": "Amethyst Pillar",
+  "item.entropy.chiseled_amethyst": "Chiseled Amethyst",
 
   "entity.entropy.blood_scythe": "Blood Scythe",
+
+  "creativeTab.entropy_mod": "Entropy",
 
   "enchantment.entropy.spewing": "Spewing",
   "enchantment.entropy.reeling": "Reeling",

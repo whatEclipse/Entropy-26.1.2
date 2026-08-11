@@ -47,7 +47,7 @@ public class ScytheItem extends Item  {
                         1,
                         6.0F
                 ))
-                .component(DataComponents.ATTACK_RANGE, new AttackRange(1, 3.5F, 1, 3.5F, 1, 1))
+                .component(DataComponents.ATTACK_RANGE, new AttackRange(0, 3.5F, 1, 3.5F, 1, 1))
         );
     }
 

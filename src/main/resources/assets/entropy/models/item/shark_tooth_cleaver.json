@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "entropy:item/shark_tooth_cleaver"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, -122],
+			"translation": [0, -0.75, -1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -32],
+			"translation": [0, -0.75, -1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-24, -83, 0],
+			"translation": [2, 1.25, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24, 83, 0],
+			"translation": [2, 1.25, 0]
+		},
+		"head": {
+			"rotation": [-4, -13, 103],
+			"translation": [7.5, 8.75, -2.25]
+		}
+	}
+}

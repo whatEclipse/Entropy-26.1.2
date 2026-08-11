@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "entropy:amethyst_bricks",
+  "result": {
+    "id": "entropy:amethyst_brick_stairs",
+    "count": 1
+  }
+}

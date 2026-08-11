@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "entropy:amethyst_pillar",
+  "result": {
+    "id": "entropy:chiseled_amethyst",
+    "count": 1
+  }
+}

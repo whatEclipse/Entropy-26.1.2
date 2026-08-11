@@ -10,9 +10,6 @@ import net.minecraft.client.particle.SpriteSet;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.util.RandomSource;
 
-// Ported from Arsenal's actual BloodBubbleSplatterParticle - this is a genuinely separate
-// class from BloodBubbleParticle, not a reuse of it. The real difference is gravity: this
-// one falls (velocityY -= 0.05 each tick) while the trail particle hovers.
 public class BloodBubbleSplatterParticle extends SingleQuadParticle {
     private final SpriteSet spriteSet;
 
