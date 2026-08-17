@@ -35,21 +35,25 @@ public class EntropyCreativeTab {
                 output.accept(EntropyItems.CLOSED_CONTRACT);
                 output.accept(EntropyItems.OPEN_CONTRACT);
                 output.accept(EntropyItems.BUTTER);
+                output.accept(EntropyItems.MUSIC_DISC_DELIRIO);
+                //output.accept(EntropyItems.MUSIC_DISC_I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN);
+                //output.accept(EntropyItems.MUSIC_DISC_PERFECT_FUNERAL);
                 output.accept(EntropyItems.SHARK_TOOTH_CLEAVER);
                 output.accept(EntropyItems.SCYTHE);
+                output.accept(EntropyItems.ATLAN_TRIDENT);
 
                 Holder<Enchantment> spewing = parameters.holders().getOrThrow(EntropyEnchantments.SPEWING);
                 ItemStack spewingBook = new ItemStack(Items.ENCHANTED_BOOK);
                 ItemEnchantments.Mutable mutable = new ItemEnchantments.Mutable(ItemEnchantments.EMPTY);
                 mutable.set(spewing, 1);
-                spewingBook.set(DataComponents.ENCHANTMENTS, mutable.toImmutable());
+                spewingBook.set(DataComponents.STORED_ENCHANTMENTS, mutable.toImmutable());
                 output.accept(spewingBook);
 
                 Holder<Enchantment> reeling = parameters.holders().getOrThrow(EntropyEnchantments.REELING);
                 ItemStack reelingBook = new ItemStack(Items.ENCHANTED_BOOK);
                 ItemEnchantments.Mutable mutable1 = new ItemEnchantments.Mutable(ItemEnchantments.EMPTY);
                 mutable1.set(reeling, 1);
-                reelingBook.set(DataComponents.ENCHANTMENTS, mutable1.toImmutable());
+                reelingBook.set(DataComponents.STORED_ENCHANTMENTS, mutable1.toImmutable());
                 output.accept(reelingBook);
 
             }))

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "C",
+    "P"
+  ],
+  "key": {
+    "#": "minecraft:rose_bush",
+    "C": "#minecraft:creeper_drop_music_discs",
+    "P": "minecraft:phantom_membrane"
+  },
+  "result": {"id": "entropy:music_disc_delirio"}
+}

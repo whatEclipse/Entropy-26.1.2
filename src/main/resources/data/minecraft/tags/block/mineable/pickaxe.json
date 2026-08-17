@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:amethyst_bricks",
+    "entropy:amethyst_brick_slab",
+    "entropy:amethyst_brick_stairs",
+    "entropy:amethyst_brick_wall",
+    "entropy:amethyst_pillar",
+    "entropy:chiseled_amethyst"
+  ]
+}

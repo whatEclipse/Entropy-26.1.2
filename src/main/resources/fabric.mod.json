@@ -5,7 +5,7 @@
 	"name": "Entropy",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"whatEclipse"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -22,7 +22,7 @@
 			"net.entropy.EntropyClient"
 		],
 		"fabric-datagen": [
-			"net.entropy.client.EntropyDataGenerator"
+			"net.entropy.EntropyDataGenerator"
 		]
 	},
 	"mixins": [

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "entropy:item/music_disc_delirio",
+    "particle": "entropy:/music_disc_delirio"
+  }
+}

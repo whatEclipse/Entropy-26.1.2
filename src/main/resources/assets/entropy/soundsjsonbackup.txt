@@ -1,4 +1,13 @@
 {
+  "delirio": {
+    "sounds": [
+      {
+        "name": "entropy:delirio",
+        "stream": true
+      }
+    ],
+    "subtitle": "entropy.subtitle.delirio_playing"
+  },
   "item.scythe.hit": {
     "sounds": ["entropy:item/scythe_hit"],
     "subtitle": "entropy.subtitles.item.scythe.hit"

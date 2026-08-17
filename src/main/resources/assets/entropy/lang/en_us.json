@@ -1,9 +1,19 @@
 {
   "item.entropy.scythe": "Scythe",
   "item.entropy.shark_tooth_cleaver": "Shark Tooth Cleaver",
+  "item.entropy.atlan_trident": "Atlan Trident",
+
   "item.entropy.open_contract": "Open Contract",
   "item.entropy.closed_contract": "Closed Contract",
+
   "item.entropy.butter": "Butter",
+  "item.entropy.music_disc_delirio": "Music Disc",
+  "item.entropy.music_disc_i_will_never_be_on_your_side_again": "Music Disc",
+  "item.entropy.music_disc_perfect_funeral": "Music Disc",
+
+  "jukebox_song.entropy.delirio": "Gianni Morandi - Delirio",
+  "jukebox_song.entropy.i_will_never_be_on_your_side_again": "Winsweep - I will never be on your side again.",
+  "jukebox_song.entropy.perfect_funeral": "StarbornNebula - perfect funeral",
 
   "item.entropy.amethyst_bricks": "Amethyst Bricks",
   "item.entropy.amethyst_brick_stairs": "Amethyst Brick Stairs",
@@ -13,13 +23,24 @@
   "item.entropy.chiseled_amethyst": "Chiseled Amethyst",
 
   "entity.entropy.blood_scythe": "Blood Scythe",
+  "entity.entropy.thrown_atlan_trident": "Thrown Atlan Trident",
 
   "creativeTab.entropy_mod": "Entropy",
 
   "enchantment.entropy.spewing": "Spewing",
   "enchantment.entropy.reeling": "Reeling",
+  "enchantment.entropy.spewing.desc": "Allows the spewing of a blood projectile, that transfers half of an effect",
+  "enchantment.entropy.reeling.desc": "Critical hits reel in enemies closer",
 
   "entropy.subtitles.item.scythe.hit": "Scythe hits",
   "entropy.subtitles.item.scythe.spewing": "Scythe spews blood",
-  "entropy.subtitles.entity.blood_scythe.hit": "Blood scythe splatters"
+  "entropy.subtitles.entity.blood_scythe.hit": "Blood scythe splatters",
+  "entropy.subtitles.delirio_playing": "Playing Delirio - Gianni Morandi",
+
+  "book.edit.title": "Edit Contract",
+  "book.sign.title": "Bind Contract",
+  "book.signButton": "Bind",
+  "entropy.contract.witness_button": "Add Witness",
+  "entropy.contract.signed_by": "Signed by %s",
+  "entropy.contract.witnessed_by": "Witnessed by %s"
 }

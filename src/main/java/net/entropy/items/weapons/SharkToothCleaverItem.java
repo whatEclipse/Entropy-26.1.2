@@ -1,4 +1,4 @@
-package net.entropy.items;
+package net.entropy.items.weapons;
 
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.tags.ItemTags;

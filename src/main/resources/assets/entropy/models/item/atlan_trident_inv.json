@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "entropy:item/atlan_trident_inv",
+    "particle": "entropy:/atlan_trident_inv"
+  }
+}

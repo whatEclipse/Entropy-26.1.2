@@ -2,7 +2,8 @@
   "description": {
     "translate": "enchantment.entropy.spewing"
   },
-  "supported_items": "entropy:scythe",
+  "supported_items":  ["entropy:scythe"],
+  "primary_items": ["entropy:scythe"],
   "weight": 2,
   "max_level": 1,
   "min_cost": {

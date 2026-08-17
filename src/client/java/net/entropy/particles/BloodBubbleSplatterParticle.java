@@ -17,7 +17,6 @@ public class BloodBubbleSplatterParticle extends SingleQuadParticle {
         super(level, x, y, z, spriteSet.first());
         this.spriteSet = spriteSet;
         this.setSpriteFromAge(spriteSet);
-        // Source's scale range is 0.5-1.0, bigger than the trail particle's 0.25-0.75.
         this.scale(0.5F + this.random.nextFloat() * 0.5F);
         this.setParticleSpeed(velocityX, velocityY, velocityZ);
     }

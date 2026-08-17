@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:feather",
+    "minecraft:ink_sac",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "entropy:open_contract"
+  }
+}
