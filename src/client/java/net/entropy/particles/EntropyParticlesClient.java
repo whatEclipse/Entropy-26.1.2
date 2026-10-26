@@ -7,5 +7,6 @@ public class EntropyParticlesClient {
     public static void registerFactories() {
         ParticleProviderRegistry.getInstance().register(EntropyParticles.BLOOD_BUBBLE, BloodBubbleParticle.Factory::new);
         ParticleProviderRegistry.getInstance().register(EntropyParticles.BLOOD_BUBBLE_SPLATTER, BloodBubbleSplatterParticle.Factory::new);
+        ParticleProviderRegistry.getInstance().register(EntropyParticles.STUN, StunParticle.Provider::new);
     }
 }

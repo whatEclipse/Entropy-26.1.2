@@ -1,7 +1,7 @@
 package net.entropy.items.weapons;
 
 import net.entropy.combat.ScytheAttackState;
-import net.entropy.enchantment.EntropyEnchantments;
+import net.entropy.registry.EntropyEnchantments;
 import net.entropy.entity.projectile.BloodScytheEntity;
 import net.entropy.sounds.EntropySounds;
 import net.minecraft.core.HolderSet;
@@ -9,7 +9,6 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
@@ -34,6 +33,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
+import net.entropy.effects.StunnedEffect;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -121,6 +121,7 @@ public class ScytheItem extends Item  {
 
         if (reelingLevel > 0 && crit) {
             pullTowardAttacker(target, attacker);
+            StunnedEffect.stun(target);
         }
 
         trySweepAttack(target, attacker, crit);

@@ -1,0 +1,9 @@
+{
+  "item": "entropy:atlan_trident",
+  "mode": "NONE",
+  "scale": [1.5, 1.5, 1.0],
+  "rotation": [0.0, 0.0, 0.0],
+  "translation": [0.0, 0.0, 0.0],
+  "sway": 1.0,
+  "noFlip": false
+}

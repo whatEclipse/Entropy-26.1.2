@@ -3,7 +3,7 @@ package net.entropy.entity;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 import net.entropy.entity.projectile.ThrownAtlanTridentEntity;
-import net.entropy.items.EntropyItems;
+import net.entropy.registry.EntropyItems;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

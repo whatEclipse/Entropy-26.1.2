@@ -1,6 +1,7 @@
 package net.entropy.entity.projectile;
 
-import net.entropy.entity.EntropyEntities;
+import net.entropy.registry.EntropyEntities;
+import net.entropy.registry.EntropyItems;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -147,7 +148,7 @@ public class ThrownAtlanTridentEntity extends AbstractArrow {
 
     @Override
     protected ItemStack getDefaultPickupItem() {
-        return new ItemStack(net.entropy.items.EntropyItems.ATLAN_TRIDENT);
+        return new ItemStack(EntropyItems.ATLAN_TRIDENT);
     }
 
     @Override

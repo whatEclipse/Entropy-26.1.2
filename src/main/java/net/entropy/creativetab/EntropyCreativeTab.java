@@ -1,8 +1,8 @@
 package net.entropy.creativetab;
 
 import net.entropy.Entropy;
-import net.entropy.enchantment.EntropyEnchantments;
-import net.entropy.items.EntropyItems;
+import net.entropy.registry.EntropyEnchantments;
+import net.entropy.registry.EntropyItems;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;

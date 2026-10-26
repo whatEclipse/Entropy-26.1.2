@@ -1,4 +1,4 @@
-package net.entropy.entity;
+package net.entropy.registry;
 
 import net.entropy.Entropy;
 import net.entropy.entity.projectile.ThrownAtlanTridentEntity;

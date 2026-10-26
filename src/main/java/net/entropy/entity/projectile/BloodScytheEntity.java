@@ -1,7 +1,7 @@
 package net.entropy.entity.projectile;
 
 import com.google.common.collect.Sets;
-import net.entropy.entity.EntropyEntities;
+import net.entropy.registry.EntropyEntities;
 import net.entropy.particles.EntropyParticles;
 import net.entropy.sounds.EntropySounds;
 import net.minecraft.server.level.ServerLevel;

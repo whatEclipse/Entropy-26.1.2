@@ -1,4 +1,4 @@
-package net.entropy.enchantment;
+package net.entropy.registry;
 
 import net.entropy.Entropy;
 import net.minecraft.core.registries.Registries;

@@ -1,7 +1,7 @@
 package net.entropy.mixin;
 
 import net.entropy.datacomponents.ContractSigners;
-import net.entropy.datacomponents.EntropyDataComponents;
+import net.entropy.registry.EntropyDataComponents;
 import net.entropy.items.contracts.OpenContractItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;

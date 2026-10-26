@@ -1,4 +1,4 @@
-package net.entropy;
+package net.entropy.registry;
 
 import net.entropy.datagen.EntropyJukeboxSongs;
 import net.entropy.datagen.EntropyRegistryDataProvider;

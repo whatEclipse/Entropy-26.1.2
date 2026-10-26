@@ -2,12 +2,10 @@ package net.entropy;
 
 import net.entropy.creativetab.EntropyCreativeTab;
 import net.entropy.datacomponents.ContractSigners;
-import net.entropy.entity.EntropyEntities;
-import net.entropy.datacomponents.EntropyDataComponents;
-import net.entropy.items.EntropyItems;
+import net.entropy.particles.EntropyParticles;
+import net.entropy.registry.*;
 import net.entropy.loottable.EntropyLootTableModifier;
 import net.entropy.network.WitnessSignPayload;
-import net.entropy.particles.EntropyParticles;
 import net.entropy.sounds.EntropySounds;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,12 +14,8 @@ import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
-import net.minecraft.server.network.Filterable;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.ItemLore;
-import net.minecraft.world.item.component.TooltipDisplay;
-import net.minecraft.world.item.component.WritableBookContent;
-import net.minecraft.world.item.component.WrittenBookContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,6 +34,7 @@ public class Entropy implements ModInitializer {
 		EntropySounds.initialize();
 		EntropyCreativeTab.initialize();
 		EntropyDataComponents.initialize();
+		EntropyEffects.initialize();
 
 		LootTableEvents.MODIFY.register(EntropyLootTableModifier::modifyLootTables);
 

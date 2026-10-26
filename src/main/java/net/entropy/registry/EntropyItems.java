@@ -1,8 +1,7 @@
-package net.entropy.items;
+package net.entropy.registry;
 
 import java.util.function.Function;
 import net.entropy.Entropy;
-import net.entropy.blocks.EntropyBlocks;
 import net.entropy.datagen.EntropyJukeboxSongs;
 import net.entropy.items.contracts.ClosedContractItem;
 import net.entropy.items.contracts.OpenContractItem;

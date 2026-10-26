@@ -22,7 +22,7 @@
 			"net.entropy.EntropyClient"
 		],
 		"fabric-datagen": [
-			"net.entropy.EntropyDataGenerator"
+          "net.entropy.registry.EntropyDataGenerator"
 		]
 	},
 	"mixins": [

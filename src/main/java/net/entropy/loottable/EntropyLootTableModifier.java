@@ -1,7 +1,6 @@
 package net.entropy.loottable;
 
-import net.entropy.items.EntropyItems;
-import net.fabricmc.fabric.api.loot.v3.FabricLootPoolBuilder;
+import net.entropy.registry.EntropyItems;
 import net.fabricmc.fabric.api.loot.v3.FabricLootTableBuilder;
 import net.fabricmc.fabric.api.loot.v3.LootTableSource;
 import net.minecraft.core.HolderLookup;

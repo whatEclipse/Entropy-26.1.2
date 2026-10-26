@@ -18,6 +18,8 @@ public class EntropyParticles {
 
     public static final SimpleParticleType BLOOD_BUBBLE_SPLATTER = create("blood_bubble_splatter", FabricParticleTypes.simple(true));
 
+    public static final SimpleParticleType STUN = FabricParticleTypes.simple();
+
     private static SimpleParticleType create(String name, SimpleParticleType particle) {
         PARTICLES.put(particle, Identifier.fromNamespaceAndPath(Entropy.MOD_ID, name));
         return particle;
@@ -25,5 +27,6 @@ public class EntropyParticles {
 
     public static void initialize() {
         PARTICLES.forEach((particle, id) -> Registry.register(BuiltInRegistries.PARTICLE_TYPE, id, particle));
+        Registry.register(BuiltInRegistries.PARTICLE_TYPE, Identifier.fromNamespaceAndPath(Entropy.MOD_ID, "stun"), STUN);
     }
 }

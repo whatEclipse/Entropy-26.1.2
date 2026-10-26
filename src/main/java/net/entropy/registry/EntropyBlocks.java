@@ -1,4 +1,4 @@
-package net.entropy.blocks;
+package net.entropy.registry;
 
 import java.util.function.Function;
 import net.entropy.Entropy;
