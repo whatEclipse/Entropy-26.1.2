@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "entropy:item/buttered_bread",
+    "particle": "entropy:item/buttered_bread"
+  }
+}

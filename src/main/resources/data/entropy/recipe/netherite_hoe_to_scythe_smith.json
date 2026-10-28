@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {},
+  "base": "minecraft:netherite_hoe",
+  "addition": "minecraft:iron_ingot",
+  "result": {}
+}

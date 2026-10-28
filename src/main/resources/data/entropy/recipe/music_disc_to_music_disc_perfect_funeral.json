@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "ACA",
+    " P "
+  ],
+  "key": {
+    "#": "minecraft:lilac",
+    "C": "#c:music_discs",
+    "A": "minecraft:amethyst_shard",
+    "P": "minecraft:phantom_membrane"
+  },
+  "result": {"id": "entropy:music_disc_perfect_funeral"}
+}

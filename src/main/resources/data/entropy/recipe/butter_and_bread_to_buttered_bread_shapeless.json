@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bread",
+    "entropy:butter"
+  ],
+  "result": {
+    "id": "entropy:buttered_bread",
+    "count": 2
+  }
+}
