@@ -2,11 +2,12 @@
   "item.entropy.scythe": "Scythe",
   "item.entropy.shark_tooth_cleaver": "Shark Tooth Cleaver",
   "item.entropy.atlan_trident": "Atlan Trident",
-
   "item.entropy.open_contract": "Open Contract",
   "item.entropy.closed_contract": "Closed Contract",
-
   "item.entropy.butter": "Butter",
+  "item.entropy.buttered_bread": "Buttered Bread",
+  "item.entropy.salt": "Dripstone Salt",
+  "item.entropy.scythe_upgrade_template": "Scythe Smithing Template",
   "item.entropy.music_disc_delirio": "Music Disc",
   "item.entropy.music_disc_i_will_never_be_on_your_side_again": "Music Disc",
   "item.entropy.music_disc_perfect_funeral": "Music Disc",
@@ -42,5 +43,6 @@
   "book.signButton": "Bind",
   "entropy.contract.witness_button": "Add Witness",
   "entropy.contract.signed_by": "Signed by %s",
-  "entropy.contract.witnessed_by": "Witnessed by %s"
+  "entropy.contract.witnessed_by": "Witnessed by %s",
+  "tooltip.entropy.not_implemented": "§7This item has not been completely implemented yet, it§r §o§4MIGHT§r §7be implemented next version as well it could be deleted.§r"
 }

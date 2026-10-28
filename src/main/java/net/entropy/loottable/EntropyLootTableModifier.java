@@ -24,5 +24,14 @@ public class EntropyLootTableModifier {
 
             builder.pool(poolBuilder.build());
         }
+        if (key.identifier().equals(Identifier.withDefaultNamespace("chests/ruined_portal"))) {
+            LootPool.Builder poolBuilder = LootPool.lootPool()
+                    .setRolls(ConstantValue.exactly(1))
+                    .when(LootItemRandomChanceCondition.randomChance(0.7F))
+                    .add(LootItem.lootTableItem(EntropyItems.SCYTHE_UPGRADE_TEMPLATE))
+                    .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).build());
+
+            builder.pool(poolBuilder.build());
+        }
     }
 }

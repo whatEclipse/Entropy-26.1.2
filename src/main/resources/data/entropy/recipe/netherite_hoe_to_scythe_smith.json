@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
-  "template": {},
+  "template": "entropy:scythe_upgrade_template",
   "base": "minecraft:netherite_hoe",
   "addition": "minecraft:iron_ingot",
-  "result": {}
+  "result": "entropy:scythe"
 }

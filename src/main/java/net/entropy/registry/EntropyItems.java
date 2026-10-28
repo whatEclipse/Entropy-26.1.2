@@ -1,8 +1,10 @@
 package net.entropy.registry;
 
+import java.util.function.Consumer;
 import java.util.function.Function;
 import net.entropy.Entropy;
 import net.entropy.datagen.EntropyJukeboxSongs;
+import net.entropy.foods.EntropyFoods;
 import net.entropy.items.contracts.ClosedContractItem;
 import net.entropy.items.contracts.OpenContractItem;
 import net.entropy.items.weapons.AtlanTridentItem;
@@ -12,19 +14,30 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.component.WritableBookContent;
 import net.minecraft.world.level.block.Block;
 
 public class EntropyItems {
 
+    static ResourceKey<Item> sackItemKey = ResourceKey.create(Registries.ITEM,
+            Identifier.fromNamespaceAndPath(Entropy.MOD_ID, "sack"));
+
     public static final Item SCYTHE = registerItem("scythe", properties -> new ScytheItem(properties));
     public static final Item ATLAN_TRIDENT = registerItem("atlan_trident", properties -> new AtlanTridentItem(properties));
-    public static final Item SHARK_TOOTH_CLEAVER = registerItem("shark_tooth_cleaver", properties -> new SharkToothCleaverItem(properties));
+    public static final Item SHARK_TOOTH_CLEAVER = registerItem("shark_tooth_cleaver", properties -> new SharkToothCleaverItem(properties)
+    {
+        @Override
+        public void appendHoverText(ItemStack itemStack, TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag) {
+            builder.accept(Component.translatable("tooltip.entropy.not_implemented"));
+            super.appendHoverText(itemStack, context, display, builder, tooltipFlag);
+        }
+    });
+
 
     public static final Item OPEN_CONTRACT = Registry.register(
             BuiltInRegistries.ITEM,
@@ -35,13 +48,19 @@ public class EntropyItems {
     );
     public static final Item CLOSED_CONTRACT = registerItem("closed_contract", ClosedContractItem::new);
 
-    public static final Item BUTTER = registerItem("butter", properties -> new Item(properties));
+    public static final Item BUTTER = registerItem("butter", properties -> new Item(properties
+            .food(EntropyFoods.BUTTER, EntropyFoods.BUTTER_CONSUMABLE)));
+    public static final Item BUTTERED_BREAD = registerItem("buttered_bread", properties -> new Item(properties
+            .food(EntropyFoods.BUTTERED_BREAD, EntropyFoods.BUTTERED_BREAD_CONSUMABLE)));
+    public static final Item SALT = registerItem("salt", properties -> new Item(properties));
+    public static final Item SCYTHE_UPGRADE_TEMPLATE = registerItem("scythe_upgrade_template", properties -> new Item(properties));
+
     public static final Item MUSIC_DISC_DELIRIO = registerItem("music_disc_delirio", properties
             -> new Item(properties.jukeboxPlayable(EntropyJukeboxSongs.DELIRIO_KEY).stacksTo(1).rarity(Rarity.RARE)));
     //public static final Item MUSIC_DISC_I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN = registerItem("music_disc_i_will_never_be_on_your_side_again", properties
-    //        -> new Item(properties.jukeboxPlayable(EntropyJukeboxSongs.I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN_KEY).stacksTo(1).rarity(Rarity.EPIC)));
-    //public static final Item MUSIC_DISC_PERFECT_FUNERAL = registerItem("music_disc_perfect_funeral", properties
-    //      -> new Item(properties.jukeboxPlayable(EntropyJukeboxSongs.PERFECT_FUNERAL_KEY).stacksTo(1).rarity(Rarity.EPIC)));
+    //       -> new Item(properties.jukeboxPlayable(EntropyJukeboxSongs.I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN_KEY).stacksTo(1).rarity(Rarity.EPIC)));
+    public static final Item MUSIC_DISC_PERFECT_FUNERAL = registerItem("music_disc_perfect_funeral", properties
+         -> new Item(properties.jukeboxPlayable(EntropyJukeboxSongs.PERFECT_FUNERAL_KEY).stacksTo(1).rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_BRICKS = registerBlockItem("amethyst_bricks", EntropyBlocks.AMETHYST_BRICKS);
     public static final Item AMETHYST_BRICK_STAIRS = registerBlockItem("amethyst_brick_stairs", EntropyBlocks.AMETHYST_BRICK_STAIRS);

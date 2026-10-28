@@ -32,12 +32,15 @@ public class EntropyCreativeTab {
                 output.accept(EntropyItems.AMETHYST_BRICK_WALL);
                 output.accept(EntropyItems.AMETHYST_PILLAR);
                 output.accept(EntropyItems.CHISELED_AMETHYST);
+                output.accept(EntropyItems.SCYTHE_UPGRADE_TEMPLATE);
                 output.accept(EntropyItems.CLOSED_CONTRACT);
                 output.accept(EntropyItems.OPEN_CONTRACT);
                 output.accept(EntropyItems.BUTTER);
+                output.accept(EntropyItems.BUTTERED_BREAD);
+                output.accept(EntropyItems.SALT);
                 output.accept(EntropyItems.MUSIC_DISC_DELIRIO);
                 //output.accept(EntropyItems.MUSIC_DISC_I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN);
-                //output.accept(EntropyItems.MUSIC_DISC_PERFECT_FUNERAL);
+                output.accept(EntropyItems.MUSIC_DISC_PERFECT_FUNERAL);
                 output.accept(EntropyItems.SHARK_TOOTH_CLEAVER);
                 output.accept(EntropyItems.SCYTHE);
                 output.accept(EntropyItems.ATLAN_TRIDENT);

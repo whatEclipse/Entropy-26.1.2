@@ -7,13 +7,13 @@
         "when": ["gui", "ground", "fixed"],
         "model": {
           "type": "minecraft:model",
-          "model": "entropy:item/scythe_inv"
+          "model": "entropy:item/scythe_upgrade_template"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "entropy:item/scythe_held"
+      "model": "entropy:item/scythe_upgrade_template"
     }
   }
 }

@@ -15,7 +15,7 @@
         "stream": true
       }
     ],
-    "subtitle": "entropy.subtitle.I_will_never_be_on_your_side_again_playing"
+    "subtitle": "entropy.subtitle.i_will_never_be_on_your_side_again_playing"
   },
   "perfect_funeral": {
     "sounds": [
@@ -24,7 +24,33 @@
         "stream": true
       }
     ],
-    "subtitle": "entropy.subtitle.delirio_playing"
+    "subtitle": "entropy.subtitle.perfect_funeral_playing"
+  },
+  "entropy.sack_open": {
+    "subtitle": "subtitle.entropy.sack_open",
+    "sounds": [
+      { "name": "entropy:block/sack_open", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_open0", "volume": 1.0, "pitch": 1.0 }
+    ]
+  },
+  "entropy.sack_break": {
+    "subtitle": "subtitle.entropy.sack_break",
+    "sounds": [
+      { "name": "entropy:block/sack_break1", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_break2", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_break3", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_break0", "volume": 1.0, "pitch": 1.0 }
+    ]
+  },
+  "entropy.sack_place": {
+    "subtitle": "subtitle.entropy.sack_place",
+    "sounds": [
+      { "name": "entropy:block/sack_place0", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_place2", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_place3", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_place1", "volume": 1.0, "pitch": 1.0 },
+      { "name": "entropy:block/sack_placel", "volume": 1.0, "pitch": 1.0 }
+    ]
   },
   "item.scythe.hit": {
     "sounds": ["entropy:item/scythe_hit"],
