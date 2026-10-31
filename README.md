@@ -19,7 +19,7 @@ A Fabric mod for Minecraft **26.1.2** that adds new weapons, a player-to-player 
 - Iron material, 7 attack damage, 1782 durability, Epic rarity, repairable with iron.
 - 3.5 block attack range, with a sweep attack on full-strength hits.
 - Mines blocks in the `mineable/hoe` tag at 9x speed.
-- Can be enchanted with **Beheading** when the [Enchancement](https://modrinth.com/) mod is installed (the Scythe is included in the `entropy:beheading_items` tag alongside axes).
+- Can be enchanted with **Beheading** when the [Enchancement](https://modrinth.com/mod/enchancement/versions) mod is installed (the Scythe is included in the `entropy:beheading_items` tag alongside axes).
 
 **Enchantments** (Scythe only, max level 1)
 
