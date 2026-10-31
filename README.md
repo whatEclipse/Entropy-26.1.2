@@ -19,7 +19,7 @@ A Fabric mod for Minecraft **26.1.2** that adds new weapons, a player-to-player 
 - Netherite level hoe, 10 attack damage, 1782 durability, Epic rarity, repairable with iron.
 - 3.5 block attack range, with a sweep attack on full-strength hits.
 - Mines blocks in the `mineable/hoe` tag as fast as netherite hoes.
-- Can be enchanted with **Beheading** when the [Enchancement](https://modrinth.com/mod/enchancement/versions) mod is installed (the Scythe is included in the `entropy:beheading_items` tag alongside axes).
+- Can be enchanted with **Beheading** when the [Enchancement](https://modrinth.com/mod/enchancement) mod is installed (the Scythe is included in the `entropy:beheading_items` tag alongside axes).
 
 **Enchantments** (Scythe only, max level 1)
 
@@ -75,9 +75,7 @@ Amethyst Bricks, Amethyst Brick Stairs, Slab and Wall, Amethyst Pillar and Chise
 | Fabric Loader | 0.19.3 or newer |
 | Fabric API | required |
 
-**Recommended:** Combat Amenities (the Scythe and Atlan Trident ship with back-slot display transforms).
-
-**Optional integrations:** Enchancement (Beheading enchantment), Farmer's Delight (milk bottle butter recipe).
+**Optional integrations:** [Enchancement](https://modrinth.com/mod/enchancement) ; [Farmer's Delight](https://modrinth.com/mod/farmers-delight) ; [Combat Amenities](https://modrinth.com/mod/combat-amenities)
 
 ## Credits
 
