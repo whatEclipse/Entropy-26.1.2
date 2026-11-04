@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "entropy:block/cast_iron_sheet_slab"
+    },
+    "type=double": {
+      "model": "entropy:block/cast_iron_sheet"
+    },
+    "type=top": {
+      "model": "entropy:block/cast_iron_sheet_slab_top"
+    }
+  }
+}

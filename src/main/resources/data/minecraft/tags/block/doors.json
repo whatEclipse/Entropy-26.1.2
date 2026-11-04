@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:cast_iron_door",
+    "entropy:cast_iron_porthole_door"
+  ]
+}

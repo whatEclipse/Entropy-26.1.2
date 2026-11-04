@@ -1,0 +1,22 @@
+{
+	"credit": "Model by Luxintrus",
+	"textures": {
+		"0": "entropy:block/cast_iron_grate",
+		"1": "entropy:block/cast_iron_grate_side",
+		"particle": "entropy:block/cast_iron_grate"
+	},
+	"elements": [
+		{
+			"from": [0, 13, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [16, 13, 0, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 12, 16, 15], "texture": "#1", "cullface": "east"},
+				"south": {"uv": [0, 12, 16, 15], "texture": "#1", "cullface": "south"},
+				"west": {"uv": [0, 12, 16, 15], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0", "cullface": "up"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
+			}
+		}
+	]
+}

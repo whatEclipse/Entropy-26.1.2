@@ -20,4 +20,3 @@
     "sounds": ["entropy:entity/blood_scythe_hit"],
     "subtitle": "entropy.subtitles.entity.blood_scythe.hit"
   }
-}

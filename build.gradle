@@ -46,7 +46,6 @@ dependencies {
 	
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-	//implementation "maven.modrinth:AHiIR2bn:hRPh3Kwo"
 	implementation "maven.modrinth:6hN1V6wJ:XLBgbrtG"
 	implementation "maven.modrinth:9Ya7Yyre:ZTcuEejF"
 }

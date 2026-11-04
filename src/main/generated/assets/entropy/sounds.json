@@ -1,4 +1,10 @@
 {
+  "block.rat_maid_plushie.honk": {
+    "sounds": [
+      "entropy:rat_maid_plushie_honk"
+    ],
+    "subtitle": "subtitles.entropy.block.rat_maid_plushie.honk"
+  },
   "delirio": {
     "sounds": [
       {
@@ -8,14 +14,33 @@
     ],
     "subtitle": "entropy.subtitle.delirio_playing"
   },
+  "entity.blood_scythe.hit": {
+    "sounds": [
+      "entropy:entity/blood_scythe_hit"
+    ],
+    "subtitle": "entropy.subtitles.entity.blood_scythe.hit"
+  },
   "i_will_never_be_on_your_side_again": {
     "sounds": [
       {
-        "name": "entropy:i_will_never_be_on_your_side_again.",
+        "name": "entropy:i_will_never_be_on_your_side_again",
         "stream": true
       }
     ],
     "subtitle": "entropy.subtitle.i_will_never_be_on_your_side_again_playing"
+  },
+  "item.scythe.hit": {
+    "sounds": [
+      "entropy:item/scythe_hit"
+    ],
+    "subtitle": "entropy.subtitles.item.scythe.hit"
+  },
+  "item.scythe.spewing": {
+    "sounds": [
+      "entropy:item/scythe_spewing_1",
+      "entropy:item/scythe_spewing_2"
+    ],
+    "subtitle": "entropy.subtitles.item.scythe.spewing"
   },
   "perfect_funeral": {
     "sounds": [
@@ -25,43 +50,5 @@
       }
     ],
     "subtitle": "entropy.subtitle.perfect_funeral_playing"
-  },
-  "entropy.sack_open": {
-    "subtitle": "subtitle.entropy.sack_open",
-    "sounds": [
-      { "name": "entropy:block/sack_open", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_open0", "volume": 1.0, "pitch": 1.0 }
-    ]
-  },
-  "entropy.sack_break": {
-    "subtitle": "subtitle.entropy.sack_break",
-    "sounds": [
-      { "name": "entropy:block/sack_break1", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_break2", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_break3", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_break0", "volume": 1.0, "pitch": 1.0 }
-    ]
-  },
-  "entropy.sack_place": {
-    "subtitle": "subtitle.entropy.sack_place",
-    "sounds": [
-      { "name": "entropy:block/sack_place0", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_place2", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_place3", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_place1", "volume": 1.0, "pitch": 1.0 },
-      { "name": "entropy:block/sack_placel", "volume": 1.0, "pitch": 1.0 }
-    ]
-  },
-  "item.scythe.hit": {
-    "sounds": ["entropy:item/scythe_hit"],
-    "subtitle": "entropy.subtitles.item.scythe.hit"
-  },
-  "item.scythe.spewing": {
-    "sounds": ["entropy:item/scythe_spewing_1", "entropy:item/scythe_spewing_2"],
-    "subtitle": "entropy.subtitles.item.scythe.spewing"
-  },
-  "entity.blood_scythe.hit": {
-    "sounds": ["entropy:entity/blood_scythe_hit"],
-    "subtitle": "entropy.subtitles.entity.blood_scythe.hit"
   }
 }

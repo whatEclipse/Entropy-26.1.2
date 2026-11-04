@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "entropy:block/rat_maid_plushie",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "entropy:block/rat_maid_plushie"
+    },
+    "facing=south": {
+      "model": "entropy:block/rat_maid_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "entropy:block/rat_maid_plushie",
+      "y": 270
+    }
+  }
+}

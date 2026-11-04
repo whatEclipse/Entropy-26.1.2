@@ -69,6 +69,21 @@ public class EntropyItems {
     public static final Item AMETHYST_PILLAR = registerBlockItem("amethyst_pillar", EntropyBlocks.AMETHYST_PILLAR);
     public static final Item CHISELED_AMETHYST = registerBlockItem("chiseled_amethyst", EntropyBlocks.CHISELED_AMETHYST);
 
+    public static final Item CAST_IRON_SHEET = registerBlockItem("cast_iron_sheet", EntropyBlocks.CAST_IRON_SHEET);
+    public static final Item CAST_IRON_SHEET_STAIRS = registerBlockItem("cast_iron_sheet_stairs", EntropyBlocks.CAST_IRON_SHEET_STAIRS);
+    public static final Item CAST_IRON_SHEET_SLAB = registerBlockItem("cast_iron_sheet_slab", EntropyBlocks.CAST_IRON_SHEET_SLAB);
+    public static final Item CAST_IRON_SHEET_WALL = registerBlockItem("cast_iron_sheet_wall", EntropyBlocks.CAST_IRON_SHEET_WALL);
+    public static final Item CAST_IRON_HULL = registerBlockItem("cast_iron_hull", EntropyBlocks.CAST_IRON_HULL);
+    public static final Item CAST_IRON_SUPPORT_BEAM = registerBlockItem("cast_iron_support_beam", EntropyBlocks.CAST_IRON_SUPPORT_BEAM);
+    public static final Item CAST_IRON_CRATE = registerBlockItem("cast_iron_crate", EntropyBlocks.CAST_IRON_CRATE);
+    public static final Item CAST_IRON_GRATE = registerBlockItem("cast_iron_grate", EntropyBlocks.CAST_IRON_GRATE);
+    public static final Item CAST_IRON_GRATE_STAIRS = registerBlockItem("cast_iron_grate_stairs", EntropyBlocks.CAST_IRON_GRATE_STAIRS);
+    public static final Item CAST_IRON_DOOR = registerDoubleBlockItem("cast_iron_door", EntropyBlocks.CAST_IRON_DOOR);
+    public static final Item CAST_IRON_PORTHOLE_DOOR = registerDoubleBlockItem("cast_iron_porthole_door", EntropyBlocks.CAST_IRON_PORTHOLE_DOOR);
+    public static final Item CAST_IRON_LANTERN = registerBlockItem("cast_iron_lantern", EntropyBlocks.CAST_IRON_LANTERN);
+    public static final Item VERDIGRIS_HULL = registerBlockItem("verdigris_hull", EntropyBlocks.VERDIGRIS_HULL);
+    public static final Item RAT_MAID_PLUSHIE = registerBlockItem("rat_maid_plushie", EntropyBlocks.RAT_MAID_PLUSHIE);
+
     private static Item registerItem(String name, Function<Item.Properties, Item> properties) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(Entropy.MOD_ID, name),
                 properties.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
@@ -80,6 +95,11 @@ public class EntropyItems {
         return Registry.register(BuiltInRegistries.ITEM, key, new BlockItem(block, new Item.Properties().setId(key)));
     }
 
+    private static Item registerDoubleBlockItem(String name, Block block) {
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM,
+                Identifier.fromNamespaceAndPath(Entropy.MOD_ID, name));
+        return Registry.register(BuiltInRegistries.ITEM, key, new DoubleHighBlockItem(block, new Item.Properties().setId(key)));
+    }
 
     public static void initialize() {
     }

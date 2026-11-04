@@ -31,6 +31,7 @@ public class Entropy implements ModInitializer {
 		EntropyItems.initialize();
 		EntropyEntities.initialize();
 		EntropyParticles.initialize();
+		EntropyBlocks.initialize();
 		EntropySounds.initialize();
 		EntropyCreativeTab.initialize();
 		EntropyDataComponents.initialize();

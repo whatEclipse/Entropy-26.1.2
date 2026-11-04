@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "entropy:block/cast_iron_hull_top",
+    "side": "entropy:block/cast_iron_hull"
+  }
+}

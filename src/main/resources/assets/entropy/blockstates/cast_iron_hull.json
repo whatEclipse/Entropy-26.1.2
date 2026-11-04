@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "entropy:block/cast_iron_hull",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "entropy:block/cast_iron_hull",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "entropy:block/cast_iron_hull"
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored"
+      },
+      {
+        "model": "entropy:block/cast_iron_hull",
+        "y": 180
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "entropy:block/cast_iron_hull",
+        "x": 90
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored",
+        "x": 90
+      },
+      {
+        "model": "entropy:block/cast_iron_hull",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "entropy:block/cast_iron_hull_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

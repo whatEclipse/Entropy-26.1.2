@@ -32,6 +32,20 @@ public class EntropyCreativeTab {
                 output.accept(EntropyItems.AMETHYST_BRICK_WALL);
                 output.accept(EntropyItems.AMETHYST_PILLAR);
                 output.accept(EntropyItems.CHISELED_AMETHYST);
+                output.accept(EntropyItems.CAST_IRON_SHEET);
+                output.accept(EntropyItems.CAST_IRON_SHEET_SLAB);
+                output.accept(EntropyItems.CAST_IRON_SHEET_STAIRS);
+                output.accept(EntropyItems.CAST_IRON_SHEET_WALL);
+                output.accept(EntropyItems.CAST_IRON_HULL);
+                output.accept(EntropyItems.VERDIGRIS_HULL);
+                output.accept(EntropyItems.CAST_IRON_SUPPORT_BEAM);
+                output.accept(EntropyItems.CAST_IRON_CRATE);
+                output.accept(EntropyItems.CAST_IRON_GRATE);
+                output.accept(EntropyItems.CAST_IRON_GRATE_STAIRS);
+                output.accept(EntropyItems.CAST_IRON_DOOR);
+                output.accept(EntropyItems.CAST_IRON_PORTHOLE_DOOR);
+                output.accept(EntropyItems.CAST_IRON_LANTERN);
+                output.accept(EntropyItems.RAT_MAID_PLUSHIE);
                 output.accept(EntropyItems.SCYTHE_UPGRADE_TEMPLATE);
                 output.accept(EntropyItems.CLOSED_CONTRACT);
                 output.accept(EntropyItems.OPEN_CONTRACT);
@@ -69,5 +83,3 @@ public class EntropyCreativeTab {
         Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CREATIVE_MODE_TAB_RESOURCE_KEY, ENTROPY_CREATIVE_TAB);
     }
 }
-
-
