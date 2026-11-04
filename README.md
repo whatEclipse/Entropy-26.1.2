@@ -59,7 +59,7 @@ Contracts let two players put an agreement in writing.
 
 ### Building blocks
 
-Amethyst Bricks, Amethyst Brick Stairs, Slab and Wall, Amethyst Pillar and Chiseled Amethyst. All are craftable from amethyst blocks and interconvertible with each other.
+The mod also includes a few building blocks and sets, for now there are an **Amethyst Block Set** and a **Cast Iron / Industrial Block Set** or kinda, well more coming in the future! 
 
 ## Obtaining the Scythe
 
