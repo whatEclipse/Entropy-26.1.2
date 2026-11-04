@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "entropy:cast_iron_crate",
+  "result": {
+    "id": "entropy:cast_iron_sheet_slab",
+    "count": 2
+  }
+}

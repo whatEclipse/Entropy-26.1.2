@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "entropy:cast_iron_door",
+    "minecraft:glass_pane"
+  ],
+  "result": {
+    "id": "entropy:cast_iron_porthole_door",
+    "count": 1
+  }
+}

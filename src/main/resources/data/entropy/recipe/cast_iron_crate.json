@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "entropy:cast_iron_sheet",
+    "S": "entropy:cast_iron_sheet_slab"
+  },
+  "pattern": [
+    "#S#",
+    "# #",
+    "#S#"
+  ],
+  "result": {
+    "id": "entropy:cast_iron_crate",
+    "count": 1
+  }
+}

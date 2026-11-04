@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:oxidized_copper",
+  "result": {
+    "id": "entropy:verdigris_hull",
+    "count": 4
+  }
+}

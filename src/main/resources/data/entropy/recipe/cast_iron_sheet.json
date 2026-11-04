@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "id": "entropy:cast_iron_sheet",
+    "count": 3
+  }
+}
