@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:chocolate_egg",
+    "entropy:chiseled_chocolate_egg",
+    "entropy:chocolate_rat",
+    "entropy:chocolate_raven",
+    "entropy:chocolate_frog",
+    "entropy:chocolate_squirrel",
+    "entropy:chocolate_crewmate"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:mug",
+    "entropy:lava_mug",
+    "entropy:milk_mug",
+    "entropy:potion_mug",
+    "entropy:pilk_mug",
+    "entropy:powder_snow_mug",
+    "entropy:honey_mug"
+  ]
+}

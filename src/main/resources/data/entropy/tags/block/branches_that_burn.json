@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:oak_branch",
+    "entropy:birch_branch",
+    "entropy:spruce_branch",
+    "entropy:jungle_branch",
+    "entropy:acacia_branch",
+    "entropy:dark_oak_branch",
+    "entropy:mangrove_branch",
+    "entropy:stripped_oak_branch",
+    "entropy:stripped_birch_branch",
+    "entropy:stripped_spruce_branch",
+    "entropy:stripped_jungle_branch",
+    "entropy:stripped_acacia_branch",
+    "entropy:stripped_dark_oak_branch",
+    "entropy:stripped_mangrove_branch"
+  ]
+}

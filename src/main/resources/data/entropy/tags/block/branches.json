@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "entropy:crimson_branch",
+    "entropy:warped_branch",
+    "entropy:stripped_crimson_branch",
+    "entropy:stripped_warped_branch",
+    "#entropy:branches_that_burn"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "elysium:elysium_helmet",
+    "elysium:elysium_chestplate",
+    "elysium:elysium_leggings",
+    "elysium:elysium_boots",
+    "diansu_prime:prime_helmet",
+    "diansu_prime:prime_chestplate",
+    "diansu_prime:prime_leggings",
+    "diansu_prime:prime_boots"
+  ]
+}
