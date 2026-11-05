@@ -52,6 +52,10 @@ public class EntropySoundsProvider extends FabricSoundsProvider {
         exporter.add(EntropySounds.RAT_MAID_PLUSHIE_HONK, SoundTypeBuilder.of(EntropySounds.RAT_MAID_PLUSHIE_HONK)
                 .subtitle("subtitles.entropy.block.rat_maid_plushie.honk")
                 .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(id("rat_maid_plushie_honk"))));
+
+        exporter.add(EntropySounds.STICKSHIFT_BAD_TO_THE_BONE, SoundTypeBuilder.of(EntropySounds.STICKSHIFT_BAD_TO_THE_BONE)
+                .subtitle("entropy.subtitles.block.stickshift.bad_to_the_bone")
+                .sound(SoundTypeBuilder.RegistrationBuilder.ofFile(id("block/stickshift/bad_to_the_bone"))));
     }
 
     @Override

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:diorite",
+  "result": {
+    "id": "entropy:polished_diorite_wall",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": "minecraft:stripped_warped_stem"
+  },
+  "result": {
+    "id": "entropy:stripped_warped_branch",
+    "count": 6
+  }
+}

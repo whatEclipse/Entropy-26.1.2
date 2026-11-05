@@ -1,0 +1,63 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "y": 90,
+        "model": "entropy:block/mug"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "entropy:block/mug"
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "y": 180,
+        "model": "entropy:block/mug"
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "y": 270,
+        "model": "entropy:block/mug"
+      }
+    },
+    {
+      "when": {
+        "level": 1
+      },
+      "apply": {
+        "model": "entropy:block/mug_milk_1"
+      }
+    },
+    {
+      "when": {
+        "level": 2
+      },
+      "apply": {
+        "model": "entropy:block/mug_milk_2"
+      }
+    },
+    {
+      "when": {
+        "level": 3
+      },
+      "apply": {
+        "model": "entropy:block/mug_milk_3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "entropy:polished_tuff"
+  },
+  "result": {
+    "id": "entropy:tuff_bricks",
+    "count": 4
+  }
+}

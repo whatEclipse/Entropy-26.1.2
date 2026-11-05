@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "lit": "true"
+      },
+      "apply": {
+        "model": "entropy:block/brazier_lit"
+      }
+    },
+    {
+      "when": {
+        "lit": "false"
+      },
+      "apply": {
+        "model": "entropy:block/brazier"
+      }
+    },
+    {
+      "when": {
+        "chain": "true"
+      },
+      "apply": {
+        "model": "entropy:block/brazier_chain"
+      }
+    },
+    {
+      "when": {
+        "legs": "true"
+      },
+      "apply": {
+        "model": "entropy:block/brazier_legs"
+      }
+    }
+  ]
+}

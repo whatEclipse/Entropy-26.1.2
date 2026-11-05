@@ -1,0 +1,7 @@
+{
+  "parent": "entropy:block/branch_top",
+  "textures": {
+    "top": "entropy:block/birch_branch_top",
+    "side": "minecraft:block/birch_log"
+  }
+}

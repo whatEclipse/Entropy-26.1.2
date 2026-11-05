@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "AQA",
+    "#R#"
+  ],
+  "key": {
+    "#": "minecraft:cobblestone",
+    "A": "minecraft:amethyst_shard",
+    "Q": "minecraft:quartz",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "entropy:equivalence_detector",
+    "count": 1
+  }
+}

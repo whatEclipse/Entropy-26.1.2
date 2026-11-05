@@ -1,6 +1,19 @@
 {
   "replace": false,
   "values": [
-    "entropy:cast_iron_sheet_wall"
+    "entropy:amethyst_brick_wall",
+    "entropy:cast_iron_sheet_wall",
+    "entropy:polished_calcite_wall",
+    "entropy:calcite_brick_wall",
+    "entropy:polished_tuff_wall",
+    "entropy:tuff_brick_wall",
+    "entropy:smooth_basalt_wall",
+    "entropy:quartz_wall",
+    "entropy:smooth_quartz_wall",
+    "entropy:smooth_sandstone_wall",
+    "entropy:smooth_red_sandstone_wall",
+    "entropy:polished_andesite_wall",
+    "entropy:polished_diorite_wall",
+    "entropy:polished_granite_wall"
   ]
 }

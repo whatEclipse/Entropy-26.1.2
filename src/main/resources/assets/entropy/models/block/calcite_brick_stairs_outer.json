@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "entropy:block/calcite_bricks",
+    "top": "entropy:block/calcite_bricks",
+    "side": "entropy:block/calcite_bricks"
+  }
+}

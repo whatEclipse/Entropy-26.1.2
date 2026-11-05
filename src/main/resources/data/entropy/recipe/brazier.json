@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "X": [
+      "minecraft:coal",
+      "minecraft:charcoal"
+    ]
+  },
+  "result": {
+    "id": "entropy:brazier",
+    "count": 1
+  }
+}

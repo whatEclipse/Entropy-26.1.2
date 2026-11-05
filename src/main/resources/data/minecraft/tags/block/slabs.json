@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "entropy:cast_iron_sheet_slab"
+    "entropy:cast_iron_sheet_slab",
+    "entropy:calcite_slab",
+    "entropy:polished_calcite_slab",
+    "entropy:calcite_brick_slab",
+    "entropy:tuff_slab",
+    "entropy:polished_tuff_slab",
+    "entropy:tuff_brick_slab",
+    "entropy:smooth_basalt_slab"
   ]
 }

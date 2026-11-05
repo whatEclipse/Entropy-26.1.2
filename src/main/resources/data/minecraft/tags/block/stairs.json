@@ -2,6 +2,13 @@
   "replace": false,
   "values": [
     "entropy:cast_iron_sheet_stairs",
-    "entropy:cast_iron_grate_stairs"
+    "entropy:cast_iron_grate_stairs",
+    "entropy:calcite_stairs",
+    "entropy:polished_calcite_stairs",
+    "entropy:calcite_brick_stairs",
+    "entropy:tuff_stairs",
+    "entropy:polished_tuff_stairs",
+    "entropy:tuff_brick_stairs",
+    "entropy:smooth_basalt_stairs"
   ]
 }

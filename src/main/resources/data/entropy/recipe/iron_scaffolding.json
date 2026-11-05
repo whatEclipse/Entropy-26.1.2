@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IXI",
+    "IXI",
+    "IXI"
+  ],
+  "key": {
+    "X": "minecraft:iron_bars",
+    "I": "entropy:steel_bar"
+  },
+  "result": {
+    "id": "entropy:iron_scaffolding",
+    "count": 12
+  }
+}

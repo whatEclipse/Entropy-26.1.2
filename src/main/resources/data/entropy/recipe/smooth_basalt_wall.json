@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:smooth_basalt"
+  },
+  "result": {
+    "id": "entropy:smooth_basalt_wall",
+    "count": 6
+  }
+}

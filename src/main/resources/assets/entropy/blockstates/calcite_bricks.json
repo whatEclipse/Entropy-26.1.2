@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "entropy:block/calcite_bricks"
+    }
+  }
+}

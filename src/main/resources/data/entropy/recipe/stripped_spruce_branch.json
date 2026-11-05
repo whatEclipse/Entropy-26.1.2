@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": "minecraft:stripped_spruce_log"
+  },
+  "result": {
+    "id": "entropy:stripped_spruce_branch",
+    "count": 6
+  }
+}

@@ -18,6 +18,7 @@ public class EntropySounds {
     public static final SoundEvent ITEM_SCYTHE_SPEWING = create("item.scythe.spewing");
     public static final SoundEvent ENTITY_BLOOD_SCYTHE_HIT = create("entity.blood_scythe.hit");
     public static final SoundEvent RAT_MAID_PLUSHIE_HONK = create("block.rat_maid_plushie.honk");
+    public static final SoundEvent STICKSHIFT_BAD_TO_THE_BONE = create("block.stickshift.bad_to_the_bone");
 
     public static final Holder.Reference<SoundEvent> DELIRIO = registerJukeBoxSong("delirio");
     public static final Holder.Reference<SoundEvent> I_WILL_NEVER_BE_ON_YOUR_SIDE_AGAIN = registerJukeBoxSong("i_will_never_be_on_your_side_again");

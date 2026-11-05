@@ -1,0 +1,7 @@
+{
+  "parent": "entropy:block/branch_bottom",
+  "textures": {
+    "top": "entropy:block/crimson_branch_top",
+    "side": "minecraft:block/crimson_stem"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "entropy:block/polished_calcite",
+    "top": "entropy:block/polished_calcite",
+    "side": "entropy:block/polished_calcite"
+  }
+}

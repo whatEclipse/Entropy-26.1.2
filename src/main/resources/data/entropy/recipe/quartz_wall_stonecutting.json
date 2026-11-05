@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:quartz_block",
+  "result": {
+    "id": "entropy:quartz_wall",
+    "count": 1
+  }
+}

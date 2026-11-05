@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "entropy:block/tuff_bricks",
+    "top": "entropy:block/tuff_bricks",
+    "side": "entropy:block/tuff_bricks"
+  }
+}
