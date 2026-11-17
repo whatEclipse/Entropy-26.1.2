@@ -18,7 +18,7 @@ public class EntropyLootTableModifier {
         if (key.identifier().equals(Identifier.withDefaultNamespace("chests/buried_treasure"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ConstantValue.exactly(1))
-                    .when(LootItemRandomChanceCondition.randomChance(1F))
+                    .when(LootItemRandomChanceCondition.randomChance(0.3F))
                     .add(LootItem.lootTableItem(EntropyItems.ATLAN_TRIDENT))
                     .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).build());
 
