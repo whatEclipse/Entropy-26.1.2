@@ -2,6 +2,7 @@ package net.entropy;
 
 import net.entropy.creativetab.EntropyCreativeTab;
 import net.entropy.datacomponents.ContractSigners;
+import net.entropy.events.ContractKillHandler;
 import net.entropy.particles.EntropyParticles;
 import net.entropy.registry.*;
 import net.entropy.loottable.EntropyLootTableModifier;
@@ -36,6 +37,8 @@ public class Entropy implements ModInitializer {
 		EntropyCreativeTab.initialize();
 		EntropyDataComponents.initialize();
 		EntropyEffects.initialize();
+		EntropyCriteria.initialize();
+		ContractKillHandler.register();
 
 		LootTableEvents.MODIFY.register(EntropyLootTableModifier::modifyLootTables);
 

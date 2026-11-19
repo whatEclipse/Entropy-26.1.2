@@ -31,6 +31,13 @@ public record ContractSigners(Optional<String> firstSigner, Optional<String> sec
         return firstSigner.isPresent() && secondSigner.isPresent();
     }
 
+    public boolean isBetween(String a, String b) {
+        if (!isFullySigned()) return false;
+        String first = firstSigner.get();
+        String second = secondSigner.get();
+        return (first.equals(a) && second.equals(b)) || (first.equals(b) && second.equals(a));
+    }
+
     public ContractSigners withFirstSigner(String name) {
         return new ContractSigners(Optional.of(name), this.secondSigner);
     }

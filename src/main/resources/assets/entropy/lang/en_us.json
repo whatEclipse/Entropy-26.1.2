@@ -209,5 +209,8 @@
   "item.entropy.chocolate_rat": "Chocolate Rat",
   "item.entropy.chocolate_raven": "Chocolate Raven",
   "item.entropy.chocolate_squirrel": "Chocolate Squirrel",
-  "item.entropy.chocolate_crewmate": "Chocolate Crewmate"
+  "item.entropy.chocolate_crewmate": "Chocolate Crewmate",
+
+  "advancement.entropy.contract_killer.title": "Et tu, Brute?",
+  "advancement.entropy.contract_killer.description": "Backstab a player after making a deal."
 }
